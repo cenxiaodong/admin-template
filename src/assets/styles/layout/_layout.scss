@@ -22,9 +22,6 @@
     .lay_header {
       left: $siderbar-open-width;
     }
-    // .lay_header{
-
-    // }
   }
 }
 .layout-wrap {
@@ -51,17 +48,18 @@
     }
     .lay_card_wrap {
       height: calc(100vh - $navbar-height);
-      border: 1px solid red;
+      overflow: hidden;
       overflow-x: scroll;
-      .c-card {
+      padding: 12px 0 0 12px;
+      background: #f8f8f8;
+      .content-card {
+        height: 100%;
+        overflow: hidden;
+        overflow-y: scroll;
         min-width: 1200px;
+        background: #fff;
+        border-radius: 5px 0 0 0;
       }
-    }
-    // overflow-x: scroll;
-    .content_wrap {
-      min-width: 1200px;
-    }
-    .content-card-wrap {
     }
   }
 }

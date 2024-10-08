@@ -7,7 +7,7 @@
     <a-layout class="layout-content-wrap">
       <LayoutHeader class="lay_header flex-space-between-center" />
       <div class="lay_card_wrap">
-        <LayoutContent class="c-card" />
+        <LayoutContent class="content-card" />
       </div>
     </a-layout>
   </a-layout>
@@ -17,8 +17,8 @@ import { ref } from 'vue'
 import LayoutSider from './LayoutSider.vue'
 import LayoutHeader from './LayoutHeader.vue'
 import LayoutContent from './LayoutContent.vue'
-import { useMenusStore } from 'store/index'
-import { useGlobalConfigStore } from 'store/index'
+import { useMenusStore } from '@/stores/index'
+import { useGlobalConfigStore } from '@/stores/index'
 const globalConfigStore = useGlobalConfigStore()
 let menuList = ref([])
 const initSideMenus = async () => {

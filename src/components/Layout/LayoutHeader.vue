@@ -6,7 +6,7 @@ import Breadcrumb from './components/Breadcrumb.vue'
 import { AntdIcon } from '@/utils/antdIcon'
 </script>
 <template>
-  <a-layout-header class="">
+  <a-layout-header>
     <div class="header-left">
       <CollapseToggle />
       <Breadcrumb />

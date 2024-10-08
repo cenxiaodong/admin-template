@@ -1,6 +1,6 @@
 <script setup>
 import { AntdIcon } from '@/utils/antdIcon'
-import { useGlobalConfigStore } from 'store/index'
+import { useGlobalConfigStore } from '@/stores/index'
 const globalConfigStore = useGlobalConfigStore()
 const toggleStatus = () => {
   globalConfigStore.collapsed = !globalConfigStore.collapsed

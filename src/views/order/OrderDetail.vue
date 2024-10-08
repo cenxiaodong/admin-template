@@ -4,7 +4,7 @@ const top = ref(10)
 </script>
 <template>
   <div class="">
-    <div style="width: 100%; height: 300px; border: 1px solid red">111</div>
+    <div style="width: 100%; height: 300px">111</div>
     <!-- <a-affix :offset-top="top">
       <a-button type="primary" @click="top += 10">Affix top</a-button>
     </a-affix> -->

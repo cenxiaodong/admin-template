@@ -96,7 +96,7 @@ for (let i = 0; i < 100; i++) {
       </router-link>
     </transition>
     <div><button @click="show = !show">切换</button></div>
-    <div class="a" style="border: 1px solid red">
+    <div class="a">
       <div>111</div>
       <div>2222</div>
     </div>
@@ -114,7 +114,7 @@ for (let i = 0; i < 100; i++) {
     <a-affix :offset-top="200">
       <a-button type="primary" @click="top += 10">Affix top</a-button>
     </a-affix>
-    <div style="height: 1000px; border: 1px solid red"></div>
+    <div style="height: 1000px"></div>
   </div>
 </template>
 <style lang="scss" scoped>
